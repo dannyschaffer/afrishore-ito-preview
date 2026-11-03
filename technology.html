@@ -4,266 +4,278 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
 body{margin:0;font-family:Inter,Helvetica,Arial,sans-serif;background:#fff}
-.ito-page{--ito-header-overlap:0px!important;margin-top:0!important}
 .pv-bar{position:sticky;top:0;z-index:50;background:#C9A03A;color:#10283f;font:600 14px/1.4 Inter,Arial,sans-serif;padding:10px 16px;text-align:center}
 .pv-bar a{color:#10283f;margin:0 8px}
 </style></head><body>
 <div class="pv-bar">APPROVAL REQUIRED: draft Tech page, not live. <a href="./">Back to overview</a> | <a href="https://afrishorebpo.com/it-outsourcing/">New IT outsourcing page (live)</a></div>
 <style>
-body:has(.ito-page) .entry-title,
-body:has(.ito-page) .page-title { display:none !important; }
-body:has(.ito-page) .site-content,
-body:has(.ito-page) .content-area,
-body:has(.ito-page) .site-main,
-body:has(.ito-page) article.page,
-body:has(.ito-page) .page-content,
-body:has(.ito-page) .entry-content,
-body:has(.ito-page) .container { width:100% !important; max-width:none !important; margin-left:0 !important; margin-right:0 !important; padding-left:0 !important; padding-right:0 !important; overflow:visible !important; }
-body:has(.ito-page) { overflow-x:hidden !important; }
-body:has(.ito-page) .entry-content { margin-top:0 !important; overflow:visible !important; }
-body:has(.ito-page) .entry-content > .ito-page { margin-top:0; }
-body:has(.ito-page) .elementor-location-header { position:relative; z-index:20; background:linear-gradient(135deg,#071923,#123d51) !important; }
-body:has(.ito-page) .elementor-location-header .elementor-element-f26efc6 { background:linear-gradient(135deg,#071923,#123d51) !important; }
-body:has(.ito-page) .elementor-location-header .elementor-element-da1012b,
-body:has(.ito-page) .elementor-location-header .elementor-element-ac847b0 { background:transparent !important; }
-body:has(.ito-page) .elementor-location-header .elementor-element-a6899b5,
-body:has(.ito-page) .elementor-location-header .elementor-element-b6be7b7,
-body:has(.ito-page) .elementor-location-header .elementor-element-a6899b5 .elementor-widget-container,
-body:has(.ito-page) .elementor-location-header .elementor-element-b6be7b7 .elementor-widget-container,
-body:has(.ito-page) .elementor-location-header .elementor-element-be131e7 a,
-body:has(.ito-page) .elementor-location-header .elementor-element-be131e7 .elementor-icon-list-text,
-body:has(.ito-page) .elementor-location-header .elementor-element-be131e7 .elementor-icon-list-icon i { color:#fff !important; text-shadow:0 1px 2px rgba(0,0,0,.22); }
-body:has(.ito-page) .elementor-location-header .elementor-element-50f678d .elementor-button-text { color:#182f47 !important; text-shadow:none !important; }
-body:has(.ito-page) .elementor-location-header .elementor-element-c950cc8 { background:#fff !important; }
-.ito-page {
-  --ito-ink:#182f47;
-  --ito-muted:#5e7185;
-  --ito-soft:#f3f8fb;
-  --ito-line:#d6e5ec;
-  --ito-brand:#35a89e;
-  --ito-brand-dark:#0b7f78;
-  --ito-deep:#071923;
-  --ito-navy:#10283f;
-  --ito-header-overlap:310px;
-  width:100%; max-width:none; margin-top:calc(-1 * var(--ito-header-overlap)); position:relative; z-index:1;
-  color:var(--ito-ink); font-family:inherit; line-height:1.55; background:#fff; overflow:visible;
+body:has(.tech-page) .entry-title, body:has(.tech-page) .page-title { display:none !important; }
+body:has(.tech-page) .site-content, body:has(.tech-page) .content-area, body:has(.tech-page) .site-main, body:has(.tech-page) article.page, body:has(.tech-page) .page-content, body:has(.tech-page) .entry-content { width:100% !important; max-width:none !important; margin-left:0 !important; margin-right:0 !important; padding-left:0 !important; padding-right:0 !important; overflow:visible !important; }
+body:has(.tech-page) { overflow-x:hidden !important; }
+.tech-page {
+  --t-ink:#13293d; --t-muted:#55697c; --t-line:#dbe7ea; --t-mint:#eef7f5; --t-mint-2:#dff1ed;
+  --t-brand:#35a89e; --t-brand-dark:#0b7f78; --t-warm:#fbf7ef;
+  color:var(--t-ink); font-family:inherit; line-height:1.6; background:#fff; width:100%;
 }
-.ito-page * { box-sizing:border-box; }
-.ito-page h1,.ito-page h2,.ito-page h3,.ito-page p,.ito-page li,.ito-page summary,.ito-page span,.ito-page strong { overflow-wrap:break-word; }
-.ito-page h1,.ito-page h2,.ito-page h3 { overflow-wrap:normal; word-break:normal; hyphens:none; }
-.ito-page h1,.ito-page h2,.ito-page h3 { margin:0; letter-spacing:0; font-family:inherit; }
-.ito-page h1 { max-width:11ch; color:#fff; font-size:clamp(48px,7vw,86px); line-height:.94; font-weight:800; }
-.ito-page h2 { max-width:17ch; color:var(--ito-ink); font-size:clamp(30px,4vw,46px); line-height:1.04; font-weight:760; }
-.ito-page .dark h2,.ito-page .hero h2 { color:#fff; }
-.ito-page h3 { color:var(--ito-ink); font-size:20px; line-height:1.2; font-weight:760; }
-.ito-page p { margin:0; color:var(--ito-muted); font-size:16px; }
-.ito-page .hero p,.ito-page .dark p { color:rgba(255,255,255,.78); }
-.ito-page a { color:inherit; }
-.ito-page .band { width:100vw !important; max-width:100vw !important; margin-left:calc(50% - 50vw) !important; margin-right:calc(50% - 50vw) !important; padding:clamp(54px,7vw,92px) 0; }
-.ito-page .band.hero { padding-top:calc(var(--ito-header-overlap) + clamp(62px,7vw,94px)); padding-bottom:clamp(62px,7vw,92px); background:linear-gradient(135deg,var(--ito-deep),#123d51 63%,#f6fbfd 63%); color:#fff; position:relative; overflow:hidden; }
-.ito-page .band.hero::before { content:""; position:absolute; inset:0; background-image:linear-gradient(rgba(53,168,158,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(53,168,158,.08) 1px,transparent 1px); background-size:38px 38px; opacity:.55; mask-image:linear-gradient(90deg,#000,transparent 76%); }
-.ito-page .band.soft { background:var(--ito-soft); }
-.ito-page .band.dark { background:linear-gradient(135deg,#071923,#143d55); color:#fff; }
-.ito-page .inner { width:min(1120px,92vw); margin:0 auto; position:relative; z-index:1; }
-.ito-page .narrow { width:min(820px,92vw); }
-.ito-page .grid-2 { display:grid; grid-template-columns:minmax(0,1fr) minmax(360px,.78fr); gap:clamp(30px,5vw,64px); align-items:center; }
-.ito-page .grid-3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
-.ito-page .grid-4 { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
-.ito-page .lead { margin-top:22px; max-width:650px; font-size:18px; line-height:1.68; }
-.ito-page .rule { width:58px; height:4px; margin-bottom:18px; background:var(--ito-brand); }
-.ito-page .btn-row { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
-.ito-page .btn { display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 22px; border-radius:3px; background:var(--ito-brand); color:#fff; font-size:13px; font-weight:760; text-transform:uppercase; letter-spacing:.04em; text-decoration:none; box-shadow:0 12px 28px rgba(0,0,0,.16); }
-.ito-page .btn.secondary { background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.24); box-shadow:none; }
-.ito-page .stack-panel { background:#fff; color:var(--ito-ink); border-radius:6px; overflow:hidden; box-shadow:0 24px 60px rgba(0,0,0,.18); }
-.ito-page .hero-photo { margin:0; height:185px; overflow:hidden; background:#0b1d2c; }
-.ito-page .hero-photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center; filter:saturate(.96) contrast(1.02); }
-.ito-page .stack-top { padding:26px 26px 20px; background:#f7fbfc; border-bottom:1px solid var(--ito-line); }
-.ito-page .stack-top strong { display:block; color:var(--ito-brand-dark); font-size:14px; text-transform:uppercase; letter-spacing:.08em; }
-.ito-page .stack-top span { display:block; margin-top:8px; color:var(--ito-ink); font-size:24px; line-height:1.12; font-weight:760; }
-.ito-page .stack-rows { padding:8px 0; }
-.ito-page .stack-row { display:grid; grid-template-columns:54px 1fr; gap:14px; padding:18px 24px; border-bottom:1px solid var(--ito-line); }
-.ito-page .stack-row:last-child { border-bottom:0; }
-.ito-page .stack-row b { display:grid; place-items:center; width:38px; height:38px; border-radius:50%; background:rgba(53,168,158,.14); color:var(--ito-brand-dark); font-weight:800; }
-.ito-page .stack-row strong { display:block; color:var(--ito-ink); font-size:16px; }
-.ito-page .stack-row span { display:block; margin-top:4px; color:var(--ito-muted); font-size:13px; line-height:1.45; }
-.ito-page .section-head { display:flex; justify-content:space-between; align-items:end; gap:28px; margin-bottom:34px; }
-.ito-page .section-head p { max-width:580px; }
-.ito-page .card,.ito-page .service-card,.ito-page .tier-card { min-width:0; background:#fff; border:1px solid var(--ito-line); border-radius:6px; padding:26px; box-shadow:0 14px 32px rgba(10,40,64,.05); }
-.ito-page .card h3,.ito-page .service-card h3,.ito-page .tier-card h3 { margin-bottom:10px; }
-.ito-page .dark .card p,.ito-page .dark .card li { color:var(--ito-muted); }
-.ito-page .service-card { border-left:4px solid var(--ito-brand); }
-.ito-page .num { width:42px; height:42px; margin-bottom:18px; display:grid; place-items:center; border-radius:50%; background:rgba(53,168,158,.13); color:var(--ito-brand-dark); font-weight:800; }
-.ito-page ul { margin:16px 0 0; padding:0; list-style:none; }
-.ito-page li { margin:0 0 10px; padding-left:18px; position:relative; color:var(--ito-muted); font-size:15px; }
-.ito-page li::before { content:""; position:absolute; left:0; top:.72em; width:6px; height:6px; border-radius:50%; background:var(--ito-brand); }
-.ito-page .dark li { color:rgba(255,255,255,.78); }
-.ito-page .layer-map { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border:1px solid rgba(255,255,255,.18); border-radius:6px; overflow:hidden; background:rgba(255,255,255,.06); }
-.ito-page .layer { min-width:0; padding:28px 24px; border-right:1px solid rgba(255,255,255,.16); }
-.ito-page .layer:last-child { border-right:0; }
-.ito-page .layer b { display:block; color:var(--ito-brand); font-size:13px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:10px; }
-.ito-page .layer h3 { color:#fff; margin-bottom:10px; }
-.ito-page .layer p { font-size:14px; }
-.ito-page .proof-strip { margin-top:34px; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:0; border:1px solid var(--ito-line); border-radius:6px; overflow:hidden; background:#fff; }
-.ito-page .proof { padding:22px; border-right:1px solid var(--ito-line); }
-.ito-page .proof:last-child { border-right:0; }
-.ito-page .proof b { display:block; color:var(--ito-brand-dark); font-size:30px; line-height:1; }
-.ito-page .proof span { display:block; margin-top:7px; color:var(--ito-muted); font-size:13px; font-weight:680; }
-.ito-page .tiers { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; margin-top:30px; }
-.ito-page .tier-card h3 { color:var(--ito-brand-dark); }
-.ito-page .service-section { display:grid; grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr); gap:34px; align-items:start; }
-.ito-page .service-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
-.ito-page .mini { padding:22px; background:#fff; border:1px solid var(--ito-line); border-radius:5px; }
-.ito-page .mini strong { display:block; color:var(--ito-ink); font-size:16px; margin-bottom:8px; }
-.ito-page .mini span { display:block; color:var(--ito-muted); font-size:14px; line-height:1.5; }
-.ito-page .chips { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
-.ito-page .chip { padding:8px 12px; border:1px solid rgba(53,168,158,.28); background:#fff; color:var(--ito-ink); border-radius:3px; font-size:13px; font-weight:680; }
-.ito-page details { border-top:1px solid var(--ito-line); padding:20px 0; }
-.ito-page details:last-child { border-bottom:1px solid var(--ito-line); }
-.ito-page summary { cursor:pointer; color:var(--ito-ink); font-size:18px; font-weight:760; }
-.ito-page details p { margin-top:10px; max-width:840px; }
-.ito-page .final-cta { padding:34px; background:#fff; border-radius:6px; color:var(--ito-ink); display:flex; justify-content:space-between; align-items:center; gap:24px; }
-.ito-page .final-cta h2 { color:var(--ito-ink); }
-.ito-page .final-cta p { max-width:650px; color:var(--ito-muted); }
-.ito-page .final-cta .btn { flex:0 0 auto; }
-.ito-page .source-note { margin-top:20px; font-size:13px; color:var(--ito-muted); }
-@media (max-width:1024px) { .ito-page { --ito-header-overlap:190px; } .ito-page .grid-4,.ito-page .proof-strip,.ito-page .layer-map { grid-template-columns:repeat(2,minmax(0,1fr)); } .ito-page .proof:nth-child(2n),.ito-page .layer:nth-child(2n) { border-right:0; } .ito-page .proof { border-bottom:1px solid var(--ito-line); } }
-@media (max-width:900px) { .ito-page .band.hero { background:linear-gradient(150deg,var(--ito-deep),#123d51); } .ito-page .grid-2,.ito-page .grid-3,.ito-page .tiers,.ito-page .service-section,.ito-page .service-list { grid-template-columns:1fr; } .ito-page .section-head,.ito-page .final-cta { display:block; } .ito-page .section-head p,.ito-page .final-cta .btn { margin-top:18px; } }
-@media (max-width:767px) { .ito-page { --ito-header-overlap:0px; margin-top:0; } body:has(.ito-page) .elementor-location-header, body:has(.ito-page) .elementor-location-header .elementor-element-f26efc6 { background:#fff !important; } body:has(.ito-page) .elementor-location-header .elementor-element-a6899b5, body:has(.ito-page) .elementor-location-header .elementor-element-b6be7b7, body:has(.ito-page) .elementor-location-header .elementor-element-a6899b5 .elementor-widget-container, body:has(.ito-page) .elementor-location-header .elementor-element-b6be7b7 .elementor-widget-container, body:has(.ito-page) .elementor-location-header .elementor-element-be131e7 a, body:has(.ito-page) .elementor-location-header .elementor-element-be131e7 .elementor-icon-list-text, body:has(.ito-page) .elementor-location-header .elementor-element-be131e7 .elementor-icon-list-icon i { color:inherit !important; text-shadow:none !important; } }
-@media (max-width:560px) { .ito-page .inner { width:auto !important; max-width:330px; margin-left:20px; margin-right:20px; } .ito-page .grid-4 { grid-template-columns:1fr; } .ito-page .stack-panel,.ito-page .card,.ito-page .service-card,.ito-page .tier-card,.ito-page .mini,.ito-page .final-cta,.ito-page .layer-map,.ito-page .proof-strip { width:100%; max-width:330px; } .ito-page .layer-map,.ito-page .proof-strip { grid-template-columns:1fr; } .ito-page .layer,.ito-page .proof { border-right:0; border-bottom:1px solid rgba(214,229,236,.5); } .ito-page h1 { font-size:38px; line-height:.98; max-width:100%; } .ito-page h2 { max-width:100%; } .ito-page .lead { font-size:16px; line-height:1.58; max-width:100%; } .ito-page .btn-row { display:grid; grid-template-columns:1fr; } .ito-page .btn { width:100%; min-height:48px; padding:0 14px; text-align:center; } .ito-page .stack-row { grid-template-columns:42px 1fr; padding-left:20px; padding-right:20px; } .ito-page .stack-top,.ito-page .card,.ito-page .service-card,.ito-page .tier-card,.ito-page .mini,.ito-page .layer,.ito-page .proof,.ito-page .final-cta { padding-left:22px; padding-right:22px; } }
-@media (max-width:560px) { .ito-page .hero-photo { height:148px; } }
-/* Platforms section (from the old /technology/ page, merged 2026-11-02) */
-.ito-page .platform img { display:block; height:84px; width:auto; max-width:140px; object-fit:contain; margin:-10px 0 8px -8px; }
-.ito-page .platform .tag { display:block; margin-bottom:6px; color:var(--ito-brand-dark); font-size:12px; font-weight:760; text-transform:uppercase; letter-spacing:.08em; }
-.ito-page .sub-head { margin:46px 0 18px; }
-.ito-page .grid-3 > .mini, .ito-page .grid-4 > .mini { min-width:0; }
-@media (max-width:1024px) { .ito-page .grid-3:has(> .mini) { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-@media (max-width:560px) { .ito-page .grid-3:has(> .mini) { grid-template-columns:1fr; } .ito-page .mini { width:100%; max-width:330px; } }
+.tech-page * { box-sizing:border-box; }
+.tech-page h1,.tech-page h2,.tech-page h3 { margin:0; font-family:inherit; letter-spacing:-.01em; color:var(--t-ink); overflow-wrap:normal; }
+.tech-page p { margin:0; color:var(--t-muted); font-size:16px; }
+.tech-page a { color:inherit; }
+.tech-page .sec { width:100vw; margin-left:calc(50% - 50vw); padding:clamp(56px,7vw,96px) 0; }
+.tech-page .wrap { width:min(1120px,calc(100% - 32px)); margin:0 auto; }
+.tech-page .eyebrow { display:inline-block; font-size:13px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--t-brand-dark); }
+.tech-page h2 { font-size:clamp(28px,3.4vw,40px); line-height:1.12; font-weight:700; margin-top:10px; max-width:22ch; }
+.tech-page .intro { margin-top:16px; max-width:640px; font-size:17px; }
+.tech-page .btn { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:0 24px; border-radius:999px; background:var(--t-ink); color:#fff; font-size:15px; font-weight:700; text-decoration:none; }
+.tech-page .btn.ghost { background:transparent; color:var(--t-ink); border:1.5px solid var(--t-ink); }
+.tech-page .btns { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+
+/* Hero: light, centred, logo wall */
+.tech-page .hero { background:linear-gradient(180deg,var(--t-mint) 0%,#fff 100%); text-align:center; padding-bottom:clamp(40px,5vw,64px); }
+.tech-page .hero h1 { font-size:clamp(40px,6vw,72px); line-height:1.04; font-weight:800; max-width:16ch; margin:14px auto 0; }
+.tech-page .hero h1 em { font-style:normal; color:var(--t-brand-dark); }
+.tech-page .hero .intro { margin:22px auto 0; font-size:18px; max-width:700px; }
+.tech-page .hero .btns { justify-content:center; }
+.tech-page .logo-wall { margin:clamp(40px,5vw,60px) auto 0; display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; max-width:1000px; }
+.tech-page .logo-wall a { display:grid; place-items:center; height:92px; background:#fff; border:1px solid var(--t-line); border-radius:14px; transition:transform .15s, box-shadow .15s; }
+.tech-page .logo-wall a:hover { transform:translateY(-2px); box-shadow:0 10px 24px rgba(19,41,61,.08); }
+.tech-page .logo-wall img { max-height:64px; max-width:78%; width:auto; object-fit:contain; }
+.tech-page .logo-note { margin-top:14px; font-size:14px; }
+
+/* Flow strip */
+.tech-page .flow { display:grid; grid-template-columns:1fr auto 1fr auto 1fr; align-items:stretch; gap:14px; margin-top:38px; }
+.tech-page .flow-step { background:var(--t-warm); border-radius:16px; padding:26px; }
+.tech-page .flow-step .k { font-size:13px; font-weight:700; color:var(--t-brand-dark); text-transform:uppercase; letter-spacing:.08em; }
+.tech-page .flow-step h3 { font-size:21px; margin:8px 0 8px; }
+.tech-page .flow-arrow { align-self:center; font-size:26px; color:var(--t-brand); font-weight:700; }
+.tech-page .options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:22px; }
+.tech-page .option { border:1px dashed var(--t-brand); border-radius:16px; padding:22px 24px; }
+.tech-page .option strong { display:block; font-size:17px; margin-bottom:6px; }
+
+/* Platform rows */
+.tech-page .platforms { background:var(--t-mint); }
+.tech-page .p-row { display:grid; grid-template-columns:180px minmax(0,1.1fr) minmax(0,1fr); gap:28px; align-items:center; background:#fff; border-radius:18px; padding:26px 28px; margin-top:16px; scroll-margin-top:90px; }
+.tech-page .p-row:first-of-type { margin-top:36px; }
+.tech-page .p-logo { display:grid; place-items:center; height:100px; background:var(--t-mint); border-radius:12px; }
+.tech-page .p-logo img { max-height:72px; max-width:82%; width:auto; object-fit:contain; }
+.tech-page .p-row .tag { font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--t-brand-dark); }
+.tech-page .p-row h3 { font-size:22px; margin:4px 0 8px; }
+.tech-page .ticks { margin:0; padding:0; list-style:none; display:grid; gap:8px; }
+.tech-page .ticks li { position:relative; padding-left:28px; font-size:15px; color:var(--t-ink); }
+.tech-page .ticks li::before { content:"✓"; position:absolute; left:0; top:0; width:20px; height:20px; border-radius:50%; background:var(--t-mint-2); color:var(--t-brand-dark); font-size:12px; font-weight:800; display:grid; place-items:center; line-height:20px; text-align:center; }
+.tech-page .also { margin-top:40px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+.tech-page .also b { margin-right:6px; font-size:15px; }
+.tech-page .pill { padding:9px 16px; background:#fff; border:1px solid var(--t-line); border-radius:999px; font-size:14px; font-weight:600; color:var(--t-ink); }
+
+/* Benefits list */
+.tech-page .two-col { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); gap:clamp(30px,5vw,70px); align-items:start; }
+.tech-page .benefits { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:26px 30px; }
+.tech-page .benefit { border-top:2px solid var(--t-brand); padding-top:14px; }
+.tech-page .benefit strong { display:block; font-size:17px; margin-bottom:4px; }
+.tech-page .benefit span { color:var(--t-muted); font-size:15px; }
+
+/* Own operation */
+.tech-page .ops { background:var(--t-warm); }
+.tech-page .ops-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; margin-top:36px; background:#fff; border-radius:18px; overflow:hidden; }
+.tech-page .ops-item { padding:28px 24px; border-right:1px solid var(--t-line); }
+.tech-page .ops-item:last-child { border-right:0; }
+.tech-page .ops-item .ic { width:44px; height:44px; border-radius:12px; background:var(--t-mint-2); color:var(--t-brand-dark); display:grid; place-items:center; font-weight:800; margin-bottom:16px; }
+.tech-page .ops-item h3 { font-size:18px; margin-bottom:8px; }
+.tech-page .ops-item p { font-size:15px; }
+
+/* Next links */
+.tech-page .next { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:34px; }
+.tech-page .next a { display:block; text-decoration:none; padding:26px; border:1px solid var(--t-line); border-radius:18px; transition:border-color .15s, background .15s; }
+.tech-page .next a:hover { border-color:var(--t-brand); background:var(--t-mint); }
+.tech-page .next h3 { font-size:19px; margin-bottom:8px; }
+.tech-page .next .go { display:inline-block; margin-top:14px; font-weight:700; color:var(--t-brand-dark); font-size:15px; }
+
+/* FAQ */
+.tech-page .faq-grid { display:grid; grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr); gap:clamp(30px,5vw,70px); }
+.tech-page details { border-bottom:1px solid var(--t-line); padding:18px 0; }
+.tech-page details:first-child { border-top:1px solid var(--t-line); }
+.tech-page summary { cursor:pointer; font-size:17px; font-weight:700; color:var(--t-ink); list-style:none; display:flex; justify-content:space-between; gap:16px; }
+.tech-page summary::-webkit-details-marker { display:none; }
+.tech-page summary::after { content:"+"; color:var(--t-brand-dark); font-size:22px; line-height:1; }
+.tech-page details[open] summary::after { content:"−"; }
+.tech-page details p { margin-top:10px; }
+
+/* CTA */
+.tech-page .cta { background:var(--t-brand-dark); text-align:center; }
+.tech-page .cta h2 { color:#fff; margin:0 auto; max-width:20ch; }
+.tech-page .cta p { color:rgba(255,255,255,.85); margin:16px auto 0; max-width:620px; font-size:17px; }
+.tech-page .cta .btns { justify-content:center; }
+.tech-page .cta .btn { background:#fff; color:var(--t-ink); }
+
+@media (max-width:960px) {
+  .tech-page .logo-wall { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .tech-page .flow { grid-template-columns:1fr; }
+  .tech-page .flow-arrow { transform:rotate(90deg); justify-self:center; }
+  .tech-page .p-row { grid-template-columns:140px minmax(0,1fr); }
+  .tech-page .p-row .ticks { grid-column:1 / -1; grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .tech-page .two-col,.tech-page .faq-grid { grid-template-columns:1fr; }
+  .tech-page .ops-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .tech-page .ops-item:nth-child(2) { border-right:0; }
+  .tech-page .ops-item:nth-child(-n+2) { border-bottom:1px solid var(--t-line); }
+  .tech-page .next { grid-template-columns:1fr; }
+}
+@media (max-width:600px) {
+  .tech-page .logo-wall { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .tech-page .logo-wall a { height:80px; }
+  .tech-page .options,.tech-page .benefits,.tech-page .ops-grid { grid-template-columns:1fr; }
+  .tech-page .ops-item { border-right:0; border-bottom:1px solid var(--t-line); }
+  .tech-page .ops-item:last-child { border-bottom:0; }
+  .tech-page .p-row { grid-template-columns:1fr; padding:22px; gap:16px; }
+  .tech-page .p-row .ticks { grid-template-columns:1fr; }
+  .tech-page .p-logo { height:84px; }
+  .tech-page .btns { display:grid; }
+  .tech-page .btn { width:100%; }
+}
 </style>
 
-<div class="ito-page">
-  <section class="band hero">
-    <div class="inner grid-2">
+<div class="tech-page">
+  <section class="sec hero">
+    <div class="wrap">
+      <span class="eyebrow">Contact centre technology</span>
+      <h1>Your platform. <em>Our people</em> who know it inside out.</h1>
+      <p class="intro">Afrishore teams work every day on the contact centre and customer service platforms you already run. Keep your tools, skip the learning curve, and add our AI, quality checks and reporting on top when you want more from them.</p>
+      <div class="btns">
+        <a class="btn" href="#platforms">See the platforms</a>
+        <a class="btn ghost" href="https://afrishorebpo.com/contact-us/">Talk to us</a>
+      </div>
+      <div class="logo-wall" aria-label="Platforms our teams work on">
+        <a href="#zendesk"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/Zendesk-DeepL-e1771932006296.png" alt="Zendesk and DeepL" loading="lazy"></a>
+        <a href="#salesforce"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/salesforce-e1771932290544.png" alt="Salesforce" loading="lazy"></a>
+        <a href="#five9"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/Five9-e1771932315765.png" alt="Five9" loading="lazy"></a>
+        <a href="#talkdesk"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/talkdesk-e1771932272209.png" alt="Talkdesk" loading="lazy"></a>
+        <a href="#tcn"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/tcn-e1771932253879.png" alt="TCN" loading="lazy"></a>
+        <a href="#webio"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/webio-e1771932203828.png" alt="Webio" loading="lazy"></a>
+      </div>
+      <p class="logo-note">Plus Genesys Cloud, NICE CXone, Freshdesk, RingCentral, Avaya and LivePerson.</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap">
+      <span class="eyebrow">How it works</span>
+      <h2>You keep the platform. We bring the people who run it well.</h2>
+      <p class="intro">Any company can buy a contact centre platform. Getting real value from it takes people who use it every day and keep improving how it is set up.</p>
+      <div class="flow">
+        <div class="flow-step"><span class="k">You have</span><h3>A platform you've paid for</h3><p>Zendesk, Salesforce, Five9, Talkdesk or another. No switch, no new licences.</p></div>
+        <div class="flow-arrow" aria-hidden="true">→</div>
+        <div class="flow-step"><span class="k">We add</span><h3>Trained people on it</h3><p>Agents and team leaders who already know the tool, so they are useful from the first week.</p></div>
+        <div class="flow-arrow" aria-hidden="true">→</div>
+        <div class="flow-step"><span class="k">You get</span><h3>Better conversations</h3><p>Faster answers, consistent quality and reporting you can act on.</p></div>
+      </div>
+      <div class="options">
+        <div class="option"><strong>Want us to run the service?</strong><p>Our agents work in your systems as your outsourced contact centre. <a href="https://afrishorebpo.com/business-process-outsourcing/">Contact centre services</a></p></div>
+        <div class="option"><strong>Keeping your own agents?</strong><p>Add our AI on live calls, quality checks on every conversation and clearer reporting. <a href="https://afrishorebpo.com/it-outsourcing/">AfriCX technology</a></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec platforms" id="platforms">
+    <div class="wrap">
+      <span class="eyebrow">The platforms</span>
+      <h2>Six platforms our teams know inside out</h2>
+
+      <div class="p-row" id="zendesk">
+        <div class="p-logo"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/Zendesk-DeepL-e1771932006296.png" alt="Zendesk and DeepL logos" loading="lazy"></div>
+        <div><span class="tag">Multilingual support</span><h3>Zendesk with DeepL translation</h3><p>We set up Zendesk for customer conversations on every channel and connect DeepL's AI translation, so agents can help customers in their own language in real time.</p></div>
+        <ul class="ticks"><li>Real-time support in multiple languages</li><li>Happier customers across markets</li><li>Faster agents with automatic translation</li><li>Trusted for global language coverage</li></ul>
+      </div>
+
+      <div class="p-row" id="salesforce">
+        <div class="p-logo"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/salesforce-e1771932290544.png" alt="Salesforce logo" loading="lazy"></div>
+        <div><span class="tag">Customer service</span><h3>Salesforce Service Cloud</h3><p>Our people know Salesforce in depth, so your service runs on your customer data and puts the customer first.</p></div>
+        <ul class="ticks"><li>Case management and automated workflows</li><li>Customer data in one place, deeper reporting</li><li>Proven ways of working that save time</li><li>Set up to grow with your business</li></ul>
+      </div>
+
+      <div class="p-row" id="five9">
+        <div class="p-logo"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/Five9-e1771932315765.png" alt="Five9 logo" loading="lazy"></div>
+        <div><span class="tag">Cloud contact centre</span><h3>Five9</h3><p>We help clients use the full range of Five9, one of the strongest cloud contact centre platforms in the world.</p></div>
+        <ul class="ticks"><li>Voice, chat and social in one place</li><li>Live performance dashboards</li><li>Connected to your customer records</li><li>Smart routing to the right person</li></ul>
+      </div>
+
+      <div class="p-row" id="talkdesk">
+        <div class="p-logo"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/talkdesk-e1771932272209.png" alt="Talkdesk logo" loading="lazy"></div>
+        <div><span class="tag">Support and set-up</span><h3>Talkdesk</h3><p>We make sure you get the most out of Talkdesk, so your service runs efficiently and flexes when you need it to.</p></div>
+        <ul class="ticks"><li>Workflows built around how you work</li><li>Call routing and phone menus configured</li><li>AI that resolves queries faster</li><li>Reporting that helps agents improve</li></ul>
+      </div>
+
+      <div class="p-row" id="tcn">
+        <div class="p-logo"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/tcn-e1771932253879.png" alt="TCN logo" loading="lazy"></div>
+        <div><span class="tag">Outbound and inbound calling</span><h3>TCN</h3><p>Our teams use TCN's cloud software to reach more customers, stay within calling rules and improve the experience.</p></div>
+        <ul class="ticks"><li>Predictive dialling, managed for you</li><li>Calls that follow each market's rules</li><li>Live and historical reporting</li><li>Routing so customers reach the right person</li></ul>
+      </div>
+
+      <div class="p-row" id="webio">
+        <div class="p-logo"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/webio-e1771932203828.png" alt="Webio logo" loading="lazy"></div>
+        <div><span class="tag">Messaging</span><h3>Webio</h3><p>We run Webio's conversational workflows so customer conversations over messaging stay consistent, quick and engaging.</p></div>
+        <ul class="ticks"><li>AI-assisted chat and messaging</li><li>Works with your existing service tools</li><li>Faster replies through automation</li><li>Personal experiences at scale</li></ul>
+      </div>
+
+      <div class="also"><b>We also work on</b><span class="pill">Genesys Cloud</span><span class="pill">NICE CXone</span><span class="pill">Freshdesk</span><span class="pill">RingCentral Contact Center</span><span class="pill">Avaya</span><span class="pill">LivePerson</span></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap two-col">
       <div>
-        <div class="rule"></div>
-        <h1>Human-led. Tech-enabled.</h1>
-        <p class="lead">Technology on its own doesn't serve your customers. People do. Afrishore teams work on the contact centre and customer service platforms global brands already use, and we back them with our own technology for quality, reporting and AI. You get people who know the tools, and tools that make good people better.</p>
-        <div class="btn-row">
-          <a class="btn" href="https://afrishorebpo.com/contact-us/">Talk to us</a>
-          <a class="btn secondary" href="#platforms">See the platforms</a>
-        </div>
+        <span class="eyebrow">Why bring us in</span>
+        <h2>What changes when our people run your platform</h2>
+        <p class="intro">Senior platform skills without the cost of building that team yourself.</p>
       </div>
-      <aside class="stack-panel" aria-label="How people and technology fit together at Afrishore">
-        <div class="stack-top"><strong>How it fits together</strong><span>People in front. Technology behind them.</span></div>
-        <div class="stack-rows">
-          <div class="stack-row"><b>1</b><div><strong>Your platform</strong><span>We work in the tools you already run, from Zendesk and Salesforce to Five9 and Talkdesk.</span></div></div>
-          <div class="stack-row"><b>2</b><div><strong>Our people</strong><span>Agents and team leaders trained on those platforms, so they already know the tools before they join your account.</span></div></div>
-          <div class="stack-row"><b>3</b><div><strong>Our intelligence</strong><span>AI that helps agents on live calls, quality checks on every conversation, and clear reporting.</span></div></div>
-          <div class="stack-row"><b>4</b><div><strong>Our IT</strong><span>Secure in-office operations in Johannesburg, run by our own IT team.</span></div></div>
-        </div>
-      </aside>
-    </div>
-  </section>
-
-  <section class="band">
-    <div class="inner">
-      <div class="section-head">
-        <h2>We don't sell technology. We make it work.</h2>
-        <p>Any company can buy a contact centre platform. Getting real value from it takes people who know it well, run it every day and keep improving how it is used. That is where we come in, in one of two ways.</p>
-      </div>
-      <div class="grid-3">
-        <div class="service-card"><div class="num">01</div><h3>Our people on your platform</h3><p>Outsource your customer service to Afrishore and our agents work directly in your systems. No new tools for you to buy, no long set-up, and no learning curve paid for by your customers.</p></div>
-        <div class="service-card"><div class="num">02</div><h3>Our intelligence on your team</h3><p>Keep your own agents and add our technology to them: AI that helps on live calls, quality checks on every conversation, and reporting your leaders can trust.</p></div>
-        <div class="service-card"><div class="num">03</div><h3>Both, under one roof</h3><p>People, platform know-how and technology from one partner, with one person accountable for how it performs.</p></div>
+      <div class="benefits">
+        <div class="benefit"><strong>No forced switch</strong><span>We work on the platform you already have.</span></div>
+        <div class="benefit"><strong>Many platforms, one team</strong><span>Skilled across the leading customer engagement tools.</span></div>
+        <div class="benefit"><strong>Every channel</strong><span>Voice, chat, email, messaging and social, on one platform or several.</span></div>
+        <div class="benefit"><strong>Many languages</strong><span>Built for businesses serving customers in more than one market.</span></div>
+        <div class="benefit"><strong>Works with your tech team</strong><span>We work closely with your people so set-up and daily running go smoothly.</span></div>
+        <div class="benefit"><strong>Always current</strong><span>Our teams train regularly on new features and best practice.</span></div>
+        <div class="benefit"><strong>Proven with global brands</strong><span>A track record supporting international companies on these tools.</span></div>
+        <div class="benefit"><strong>People first, AI behind them</strong><span>Technology makes good agents faster. It doesn't replace them.</span></div>
       </div>
     </div>
   </section>
 
-  <section class="band" id="platforms">
-    <div class="inner">
-      <div class="section-head">
-        <h2>The platforms we work on</h2>
-        <p>Our teams are trained on the contact centre and customer service platforms global brands use. You keep the platform you have, get more from it, and leave the technical complexity to us.</p>
-      </div>
-      <div class="grid-3">
-        <div class="card platform"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/Zendesk-DeepL-e1771932006296.png" alt="Zendesk and DeepL logos" loading="lazy"><span class="tag">Multilingual support</span><h3>Zendesk with DeepL translation</h3><p>We set up Zendesk to handle customer conversations across every channel, and connect DeepL's AI translation so agents can help customers in their own language, in real time.</p><ul><li>Real-time support in multiple languages</li><li>Happier customers across different markets</li><li>Agents work faster with automatic translation</li><li>Trusted by clients who need global language coverage</li></ul></div>
-        <div class="card platform"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/salesforce-e1771932290544.png" alt="Salesforce logo" loading="lazy"><span class="tag">Customer service</span><h3>Salesforce Service Cloud</h3><p>Our people know Salesforce in depth, so your customer service runs on your customer data and puts the customer first.</p><ul><li>Case management and automated workflows</li><li>Customer data brought together, with deeper reporting</li><li>Proven ways of working that make service more efficient</li><li>Set up to grow with your business</li></ul></div>
-        <div class="card platform"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/tcn-e1771932253879.png" alt="TCN logo" loading="lazy"><span class="tag">Contact centre</span><h3>TCN</h3><p>Our teams use TCN's cloud contact centre software to help businesses reach more customers, stay within the rules and improve the customer experience.</p><ul><li>Predictive dialling, managed for you</li><li>Calls that follow communication regulations in each market</li><li>Live and historical reporting</li><li>Smarter call routing so customers reach the right person</li></ul></div>
-        <div class="card platform"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/webio-e1771932203828.png" alt="Webio logo" loading="lazy"><span class="tag">Conversational AI</span><h3>Webio</h3><p>We run Webio's conversational workflows so your customer conversations over messaging stay consistent, quick and engaging.</p><ul><li>AI-assisted chat and messaging</li><li>Works with your existing customer service platforms</li><li>Faster responses through automated conversations</li><li>Personal customer experiences at scale</li></ul></div>
-        <div class="card platform"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/Five9-e1771932315765.png" alt="Five9 logo" loading="lazy"><span class="tag">Cloud contact centre</span><h3>Five9</h3><p>We help clients use the full range of Five9, one of the strongest cloud contact centre platforms in the world.</p><ul><li>Customer conversations across voice, chat and social media</li><li>Live performance monitoring and reporting dashboards</li><li>Connected to your customer records for better insight</li><li>Smart call routing for happier customers</li></ul></div>
-        <div class="card platform"><img src="https://afrishorebpo.com/wp-content/uploads/2025/03/talkdesk-e1771932272209.png" alt="Talkdesk logo" loading="lazy"><span class="tag">Support and set-up</span><h3>Talkdesk</h3><p>We make sure you get the most out of Talkdesk, so your customer service runs efficiently and can flex when you need it to.</p><ul><li>Workflows set up around how you work</li><li>Call routing and phone menus configured for you</li><li>AI that helps resolve customer queries faster</li><li>Reporting that helps your agents improve</li></ul></div>
-      </div>
-      <h3 class="sub-head">We also work on</h3>
-      <div class="grid-3">
-        <div class="mini"><strong>Genesys Cloud</strong><span>Contact centre platform for operations that need to scale, with advanced reporting.</span></div>
-        <div class="mini"><strong>NICE inContact (CXone)</strong><span>Workforce management, quality checks and advanced reporting.</span></div>
-        <div class="mini"><strong>Freshdesk</strong><span>Customer support software for tickets, collaboration and automation.</span></div>
-        <div class="mini"><strong>RingCentral Contact Center</strong><span>Voice, video and messaging tools in the cloud.</span></div>
-        <div class="mini"><strong>Avaya</strong><span>Unified communications for high volumes of customer contact.</span></div>
-        <div class="mini"><strong>LivePerson</strong><span>AI-powered messaging and conversational commerce.</span></div>
-      </div>
-      <h3 class="sub-head">Why teams bring us in on their platforms</h3>
-      <div class="grid-4">
-        <div class="mini"><strong>Proven with global brands</strong><span>A track record supporting international companies on these platforms.</span></div>
-        <div class="mini"><strong>Many platforms, one team</strong><span>Skilled across a wide range of leading customer engagement platforms.</span></div>
-        <div class="mini"><strong>Every channel</strong><span>Voice, chat, email, messaging and social, on one platform or several.</span></div>
-        <div class="mini"><strong>Works with your tech team</strong><span>We work closely with your people so set-up and day-to-day running go smoothly.</span></div>
-        <div class="mini"><strong>Global reach, many languages</strong><span>Built for businesses that serve customers in more than one market.</span></div>
-        <div class="mini"><strong>Always up to date</strong><span>Our teams train regularly on new platform features and best practice.</span></div>
-        <div class="mini"><strong>Keep your platform</strong><span>No forced switch. We work on the platform you already have.</span></div>
-        <div class="mini"><strong>Expertise without the overhead</strong><span>Senior platform skills without the cost of building that team in-house.</span></div>
+  <section class="sec ops">
+    <div class="wrap">
+      <span class="eyebrow">Behind every team</span>
+      <h2>Built on our own secure operation in Johannesburg</h2>
+      <div class="ops-grid">
+        <div class="ops-item"><div class="ic">01</div><h3>In-office, not at home</h3><p>Managed offices with secure controls for supervision and data handling.</p></div>
+        <div class="ops-item"><div class="ic">02</div><h3>Backup connectivity</h3><p>Backup connections keep your service running when something outside our control goes down.</p></div>
+        <div class="ops-item"><div class="ic">03</div><h3>Quality you can see</h3><p>Quality checks, coaching and reporting built into how every team runs.</p></div>
+        <div class="ops-item"><div class="ic">04</div><h3>Our own IT team</h3><p>The team that runs our systems also runs IT for clients. <a href="https://afrishorebpo.com/it-outsourcing/">IT outsourcing</a></p></div>
       </div>
     </div>
   </section>
 
-
-  <section class="band dark">
-    <div class="inner">
-      <div class="section-head">
-        <h2>The technology behind our own teams</h2>
-        <p>Our people don't just know your tools. They work inside an operation we have built to be secure, reliable and measurable, from our office in Johannesburg.</p>
+  <section class="sec">
+    <div class="wrap faq-grid">
+      <div>
+        <span class="eyebrow">Questions</span>
+        <h2>Frequently asked questions</h2>
       </div>
-      <div class="grid-4">
-        <div class="card"><h3>Secure in-office teams</h3><p>Our teams work from managed offices with secure controls for supervision, data handling and client reporting, not from home.</p></div>
-        <div class="card"><h3>Resilient connectivity</h3><p>Resilient connectivity and central systems keep your service running and your data under control.</p></div>
-        <div class="card"><h3>Quality you can see</h3><p>Quality checks, coaching and reporting built into the way every team runs, so you see how your customers are being served.</p></div>
-        <div class="card"><h3>Our own IT team</h3><p>The same IT team that supports our operation runs IT for clients too. If you want that for your own business, see <a href="https://afrishorebpo.com/it-outsourcing/">IT outsourcing</a>.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="band soft">
-    <div class="inner">
-      <div class="section-head">
-        <h2>Where to go next</h2>
-        <p>Technology runs through everything we do. These are the services it supports.</p>
-      </div>
-      <div class="grid-3">
-        <div class="card"><h3>Outsource your contact centre</h3><p>Customer support, contact centre operations and back-office teams, run by Afrishore people on your platform.</p><div class="btn-row"><a class="btn" href="https://afrishorebpo.com/business-process-outsourcing/">Contact centre services</a></div></div>
-        <div class="card"><h3>Add AI and insight to your team</h3><p>A communications platform, artificial intelligence and reporting for contact centres that want to work smarter without starting again.</p><div class="btn-row"><a class="btn" href="https://afrishorebpo.com/it-outsourcing/">AfriCX technology</a></div></div>
-        <div class="card"><h3>Hand us your IT</h3><p>Help desk, network monitoring and security for your business, with a dedicated IT manager and one monthly price.</p><div class="btn-row"><a class="btn" href="https://afrishorebpo.com/it-outsourcing/">IT outsourcing</a></div></div>
+      <div>
+        <details><summary>Can your agents work on our existing platform?</summary><p>Yes. Our agents work directly in your systems, whether that is Zendesk, Salesforce Service Cloud, Five9, Talkdesk, TCN, Genesys Cloud or another platform. You don't need to buy new tools or change how your operation is set up.</p></details>
+        <details><summary>Which platforms do you work with?</summary><p>Our teams work on Zendesk (including DeepL translation), Salesforce Service Cloud, TCN, Webio, Five9 and Talkdesk, as well as Genesys Cloud, NICE CXone, Freshdesk, RingCentral Contact Center, Avaya and LivePerson.</p></details>
+        <details><summary>Can you support customers in other languages?</summary><p>Yes. On Zendesk we connect DeepL's AI translation so agents can help customers in their own language in real time, which suits businesses serving customers in more than one market.</p></details>
+        <details><summary>Can you add AI to our contact centre without replacing our platform?</summary><p>Yes. Our AfriCX technology adds AI that helps agents on live calls, quality checks on every conversation and clearer reporting on top of the platform you already have.</p></details>
+        <details><summary>Do you use AI to replace agents?</summary><p>No. People lead every customer conversation and own the outcome. We use AI to make them faster, more accurate and easier to measure.</p></details>
+        <details><summary>Who looks after the technology your own teams use?</summary><p>Our own IT team in Johannesburg. They run our secure in-office operation and also provide IT outsourcing to clients in the US and UK.</p></details>
       </div>
     </div>
   </section>
 
-  <section class="band">
-    <div class="inner narrow">
-      <div class="rule"></div>
-      <h2>Frequently asked questions</h2>
-      <details><summary>Can your agents work on our existing platform?</summary><p>Yes. Our agents work directly in your systems, whether that is Zendesk, Salesforce Service Cloud, Five9, Talkdesk, TCN, Genesys Cloud or another platform. You don't need to buy new tools or change how your operation is set up.</p></details>
-      <details><summary>Which platforms do you work with?</summary><p>Our teams work on Zendesk (including DeepL translation), Salesforce Service Cloud, TCN, Webio, Five9 and Talkdesk, as well as Genesys Cloud, NICE inContact, Freshdesk, RingCentral Contact Center, Avaya and LivePerson.</p></details>
-      <details><summary>Can you support customers in other languages?</summary><p>Yes. On Zendesk we connect DeepL's AI translation so agents can help customers in their own language in real time, which suits businesses serving customers in more than one market.</p></details>
-      <details><summary>Can you add AI to our contact centre without replacing our platform?</summary><p>Yes. Our AfriCX technology adds AI that helps agents on live calls, quality checks on every conversation and clearer reporting on top of the platform you already have.</p></details>
-      <details><summary>What does "human-led, tech-enabled" mean?</summary><p>People lead every customer conversation and own the outcome. Technology makes them faster, more accurate and easier to measure. We don't use technology to replace good people, and we don't expect good people to work with poor tools.</p></details>
-      <details><summary>Who looks after the technology your own teams use?</summary><p>Our own IT team in Johannesburg. They run our secure in-office operation and also provide IT outsourcing to clients in the US and UK.</p></details>
-    </div>
-  </section>
-
-  <section class="band dark">
-    <div class="inner final-cta">
-      <div><h2>Get more from the technology you already have.</h2><p>Whether you are scaling customer service or getting more from your current platforms, start with a short call about how things are set up today. If we are not the right fit, we will tell you.</p></div>
-      <a class="btn" href="https://afrishorebpo.com/contact-us/">Talk to us</a>
+  <section class="sec cta">
+    <div class="wrap">
+      <h2>Get more from the platform you already pay for.</h2>
+      <p>Tell us what you run today and where it falls short. We'll show you what our people and technology would change. If we're not the right fit, we'll say so.</p>
+      <div class="btns"><a class="btn" href="https://afrishorebpo.com/contact-us/">Talk to us</a></div>
     </div>
   </section>
 </div>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://afrishorebpo.com/technology/", "url": "https://afrishorebpo.com/technology/", "name": "Contact Centre Technology We Work On | Human-Led, Tech-Enabled | Afrishore", "description": "Afrishore teams work on Zendesk, Salesforce, Five9, Talkdesk, Genesys and more, backed by our own AI, quality and reporting technology. Human-led, tech-enabled.", "isPartOf": {"@id": "https://afrishorebpo.com/#website"}, "about": {"@id": "https://afrishorebpo.com/#organization"}, "mainEntity": {"@id": "https://afrishorebpo.com/technology/#faq"}}, {"@type": "FAQPage", "@id": "https://afrishorebpo.com/technology/#faq", "mainEntity": [{"@type": "Question", "name": "Can your agents work on our existing platform?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our agents work directly in your systems, whether that is Zendesk, Salesforce Service Cloud, Five9, Talkdesk, TCN, Genesys Cloud or another platform. You don't need to buy new tools or change how your operation is set up."}}, {"@type": "Question", "name": "Which platforms do you work with?", "acceptedAnswer": {"@type": "Answer", "text": "Our teams work on Zendesk (including DeepL translation), Salesforce Service Cloud, TCN, Webio, Five9 and Talkdesk, as well as Genesys Cloud, NICE inContact, Freshdesk, RingCentral Contact Center, Avaya and LivePerson."}}, {"@type": "Question", "name": "Can you support customers in other languages?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. On Zendesk we connect DeepL's AI translation so agents can help customers in their own language in real time, which suits businesses serving customers in more than one market."}}, {"@type": "Question", "name": "Can you add AI to our contact centre without replacing our platform?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our AfriCX technology adds AI that helps agents on live calls, quality checks on every conversation and clearer reporting on top of the platform you already have."}}, {"@type": "Question", "name": "What does \"human-led, tech-enabled\" mean?", "acceptedAnswer": {"@type": "Answer", "text": "People lead every customer conversation and own the outcome. Technology makes them faster, more accurate and easier to measure. We don't use technology to replace good people, and we don't expect good people to work with poor tools."}}, {"@type": "Question", "name": "Who looks after the technology your own teams use?", "acceptedAnswer": {"@type": "Answer", "text": "Our own IT team in Johannesburg. They run our secure in-office operation and also provide IT outsourcing to clients in the US and UK."}}]}, {"@type": "Organization", "@id": "https://afrishorebpo.com/#organization", "name": "Afrishore BPO", "url": "https://afrishorebpo.com/", "logo": "https://afrishorebpo.com/wp-content/uploads/2023/10/Afrishore-BPO-Logo.png", "address": {"@type": "PostalAddress", "addressLocality": "Johannesburg", "addressCountry": "ZA"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://afrishorebpo.com/technology/","url":"https://afrishorebpo.com/technology/","name":"Contact Centre Platforms We Work On | Zendesk, Salesforce, Five9 | Afrishore","description":"Afrishore agents work on Zendesk, Salesforce, Five9, Talkdesk, TCN, Genesys and more. Keep your platform and add trained people, AI and reporting.","isPartOf":{"@id":"https://afrishorebpo.com/#website"},"about":{"@id":"https://afrishorebpo.com/#organization"},"mainEntity":{"@id":"https://afrishorebpo.com/technology/#faq"}},{"@type":"FAQPage","@id":"https://afrishorebpo.com/technology/#faq","mainEntity":[{"@type":"Question","name":"Can your agents work on our existing platform?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our agents work directly in your systems, whether that is Zendesk, Salesforce Service Cloud, Five9, Talkdesk, TCN, Genesys Cloud or another platform. You don't need to buy new tools or change how your operation is set up."}},{"@type":"Question","name":"Which platforms do you work with?","acceptedAnswer":{"@type":"Answer","text":"Our teams work on Zendesk (including DeepL translation), Salesforce Service Cloud, TCN, Webio, Five9 and Talkdesk, as well as Genesys Cloud, NICE CXone, Freshdesk, RingCentral Contact Center, Avaya and LivePerson."}},{"@type":"Question","name":"Can you support customers in other languages?","acceptedAnswer":{"@type":"Answer","text":"Yes. On Zendesk we connect DeepL's AI translation so agents can help customers in their own language in real time, which suits businesses serving customers in more than one market."}},{"@type":"Question","name":"Can you add AI to our contact centre without replacing our platform?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our AfriCX technology adds AI that helps agents on live calls, quality checks on every conversation and clearer reporting on top of the platform you already have."}},{"@type":"Question","name":"Do you use AI to replace agents?","acceptedAnswer":{"@type":"Answer","text":"No. People lead every customer conversation and own the outcome. We use AI to make them faster, more accurate and easier to measure."}},{"@type":"Question","name":"Who looks after the technology your own teams use?","acceptedAnswer":{"@type":"Answer","text":"Our own IT team in Johannesburg. They run our secure in-office operation and also provide IT outsourcing to clients in the US and UK."}}]},{"@type":"Organization","@id":"https://afrishorebpo.com/#organization","name":"Afrishore BPO","url":"https://afrishorebpo.com/","logo":"https://afrishorebpo.com/wp-content/uploads/2023/10/Afrishore-BPO-Logo.png","address":{"@type":"PostalAddress","addressLocality":"Johannesburg","addressCountry":"ZA"}}]}</script>
 </body></html>
